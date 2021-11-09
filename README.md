@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# Itended Item Shadowing
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Implements the Item Shadowing mechanic in an intended server-side-only way.
