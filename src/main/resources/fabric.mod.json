@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "intended_shadowing",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Intended Shadowing",
+  "description": "This mod reimplements the Item Shadowing bug in a more robust and intended way.",
   "authors": [
-    "Me!"
+    "Moxinilian"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Moxinilian/intended-item-shadowing"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.moxinilian.intendedshadowing.IntendedShadowing"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "intended_shadowing.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +30,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

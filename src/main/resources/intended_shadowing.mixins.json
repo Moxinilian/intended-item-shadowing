@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.moxinilian.intendedshadowing.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "server": [
+  ],
+  "mixins": [
+    "ItemStackInjection",
+    "ItemStackInjectionGen",
+    "MinecraftServerInjection"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
